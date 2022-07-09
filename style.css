@@ -1013,12 +1013,12 @@ body {
         padding-top: 4rem; } }
   .footer__copyright {
     font-family: Cormorant Infant;
-    font-weight: 400;
-    font-size: 1.3rem;
+    font-weight: 300;
+    font-size: 1.1rem;
     color: aliceblue;
     text-align: center;
     padding-bottom: 4rem;
-    opacity: 0.8;
+    opacity: 0.7;
     padding-top: -3rem; }
     @media (max-width: 56.25em) {
       .footer__copyright {
