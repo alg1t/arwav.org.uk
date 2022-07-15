@@ -1329,7 +1329,7 @@ body {
 @media (max-width: 34.4em) {
   .header__text-box {
     width: 35rem;
-    top: 70%;
+    top: 60%;
   }
 }
 
