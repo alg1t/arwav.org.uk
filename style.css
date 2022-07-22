@@ -125,6 +125,7 @@ body {
 }
 .heading-primary--main {
   font-family: "Cormorant Infant", serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   color: #9b9b9b;
   display: block;
   opacity: 0.9;
