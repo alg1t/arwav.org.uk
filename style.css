@@ -125,7 +125,6 @@ body {
 }
 .heading-primary--main {
   font-family: "Cormorant Infant", serif;
-  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   color: #9b9b9b;
   display: block;
   opacity: 0.9;
@@ -655,6 +654,7 @@ body {
     border-radius: 3px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 1.5rem 4rem rgba(245, 11, 11, 0.15);
+    width: 39rem;
   }
   .card__picture {
     height: 25rem;
@@ -1298,11 +1298,10 @@ body {
       rgba(10, 4, 4, 0.5)
     ),
     url(img/roomcol);
+  background-attachment: fixed;
   background-size: cover;
   background-position: top;
   position: relative;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
 }
 @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 56.25rem),
   (min-resolution: 192dpi) and (max-width: 56.25rem) {
@@ -1316,6 +1315,7 @@ body {
   }
 }
 .header__text-box {
+  background-attachment: fixed;
   position: absolute;
   top: 63%;
   left: 50%;
@@ -1410,7 +1410,7 @@ body {
   font-family: Cormorant Infant;
   font-weight: 400;
   font-size: 1rem;
-  color: aliceblue;
+  color: white;
   text-align: center;
   padding-bottom: 4rem;
   opacity: 0.8;
@@ -1474,10 +1474,10 @@ body {
 .section-about {
   background-color: #e7e7e7;
   height: auto;
-  padding-bottom: 35rem;
+  padding-bottom: 32rem;
   position: relative;
 }
-@media screen and (max-width: 1370px), screen and (max-height: 920px) {
+@media screen and (max-width: 1370px) and (max-height: 920px) {
   .section-about {
     padding-bottom: 25rem;
   }
