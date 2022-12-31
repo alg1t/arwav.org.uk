@@ -16,9 +16,9 @@
 </head>
 
 <body>
-  <!--Darkscape Section-->
+  <!--Intersection API for laxy loading framed images-->
   <header class="header">
-    <!--Navbar Section-->
+    <!--Navbar Section-Bubble capture at nav_ul-->
     <nav class="nav">
       <ul class="nav__ul">
         <li class="nav__li"><a href="#galleryContainer" class="nav__lia">Gallery</a></li>
@@ -36,6 +36,7 @@
   </header>
 
   <main>
+    <!-- Used Floats for about section -->
     <section class="section-about">
       <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary u-padding-top">
@@ -53,8 +54,6 @@
             tempore accusamus?
             natus dolores eligendi magnam libero nisi cum nihil quas sunt dolorum, maiores doloribus. Ab,
             tempore accusamus?
-
-
             <br><br><br>
           </p>
         </div>
@@ -73,6 +72,7 @@
         </div>
       </div>
     </section>
+
     <!--Video Section-->
     <section class="section-stories">
       <div class="bg-video">
@@ -101,10 +101,12 @@
       </div>
       <!-- <a href="#" class="btn-text">About Me&rarr;</a> -->
     </section>
+
+    <!-- Gallery section Grid/Flex -->
     <section id="galleryContainer">
       <div class="wire__map">
         <div class="header__gallery">
-
+          <!-- Could only get this to work inline!!!! -no embedding the svg worked - Utilised Intersection API with jQuery to reload svg on scrollY-->
           <svg version="1.1" id="galleryHeader" class="animatedText" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Paintings_In_My_Garage">
@@ -820,7 +822,7 @@
                 <img src="img/AutumnLeaf.png" alt="Autumn Leaf">
               </div>
               <div class="gallery__card--cta__front">
-                <a href="galleries/index2.html" class="btn btn__white btn__white--btn-1"">Gallery</a>
+                <a href="#" class="btn btn__white btn__white--btn-1"">Gallery</a>
                           </div>
                       </div>
                       <div class=" gallery__card--back">
@@ -862,7 +864,7 @@
                   <img src="img/leaf2.png" alt="Summer Leaf">
                 </div>
                 <div class="gallery__card--cta__front">
-                  <a href="galleries/index2.html" class="btn btn__white btn__white--btn-3">Gallery</a>
+                  <a href="#" class="btn btn__white btn__white--btn-3">Gallery</a>
                 </div>
               </div>
               <div class="gallery__card--back">
@@ -903,7 +905,7 @@
                   <img src="img/sea.png.png" alt="Autumn Leaf">
                 </div>
                 <div class="gallery__card--cta__front">
-                  <a href="galleries/index2.html" class="btn btn__white btn__white--btn-5" ">Gallery</a>
+                  <a href="#" class="btn btn__white btn__white--btn-5" ">Gallery</a>
                           </div>
                       </div>
                       <div class=" gallery__card--back">
@@ -923,6 +925,8 @@
             </div>
           </div>
     </section>
+
+    <!-- Need log vectorizing! -->
     <footer class="footer">
       <div class="footer__logo-box">
         <picture class="footer__logo">
@@ -943,6 +947,8 @@
           </ul>
         </div>
     </footer>
+
+    <!-- This was tabled!!! -->
     <div class="popup" id="popup">
       <div class="popup__content">
         <div class="popup__left">
