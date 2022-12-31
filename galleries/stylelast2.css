@@ -549,18 +549,6 @@ body {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-.popup__close:link,
-.popup__close:visited {
-  color: #777;
-  position: absolute;
-  top: 2.5rem;
-  right: 2.5rem;
-  font-size: 3rem;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.2s;
-  line-height: 1;
-}
 
 .header {
   height: 100vh;
