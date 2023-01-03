@@ -2000,7 +2000,8 @@ section#galleryContainer {
 .footer__logo-box {
   padding-top: 7rem;
   text-align: center;
-  opacity: 0.8;
+  opacity: 0.9;
+  padding-bottom: 2rem;
   /* background-size: 80px 68px; */
 }
 @media (max-width: 35em) {
