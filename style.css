@@ -2000,6 +2000,7 @@ section#galleryContainer {
 .footer__logo-box {
   padding-top: 7rem;
   text-align: center;
+  /* background-size: 80px 68px; */
 }
 @media (max-width: 35em) {
   .footer__logo-box {
@@ -2013,8 +2014,8 @@ section#galleryContainer {
   color: white;
   text-align: center;
   padding-bottom: 4rem;
-  opacity: 0.8;
-  padding-top: -3rem;
+  /* opacity: 0.8; */
+  /* padding-top: -1rem; */
 }
 @media (max-width: 35em) {
   .footer__copyright {
