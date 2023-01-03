@@ -2007,6 +2007,7 @@ section#galleryContainer {
 @media (max-width: 35em) {
   .footer__logo-box {
     padding-top: 4rem;
+    opacity: 0.5;
   }
 }
 .footer__copyright {
