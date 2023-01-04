@@ -1903,8 +1903,9 @@ section#galleryContainer {
   background-position: top;
   position: relative;
 }
-@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 56.25rem),
-  (min-resolution: 192dpi) and (max-width: 56.25rem) {
+@media (max-width: 35em) {
+  /* @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 56.25rem),
+  (min-resolution: 192dpi) and (max-width: 56.25rem) { */
   .header {
     background-image: linear-gradient(
         to right bottom,
