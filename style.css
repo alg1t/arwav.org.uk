@@ -1897,7 +1897,7 @@ section#galleryContainer {
       rgba(58, 10, 10, 0.5),
       rgba(10, 4, 4, 0.5)
     ),
-    url(img/roomcol);
+    url(img/roomcol.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
@@ -1911,7 +1911,7 @@ section#galleryContainer {
         rgba(58, 10, 10, 0.5),
         rgba(10, 4, 4, 0.5)
       ),
-      url(img/small100k.png);
+      url(img/small100k.jpg);
   }
 }
 .header__text-box {
@@ -1995,6 +1995,7 @@ section#galleryContainer {
 }
 
 .footer {
+  /* background-color: rgb(0, 0, 0); */
   background-color: #333;
 }
 .footer__logo-box {
