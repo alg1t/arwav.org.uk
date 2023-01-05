@@ -2009,7 +2009,7 @@ section#galleryContainer {
 @media (max-width: 35em) {
   .footer__logo-box {
     padding-top: 4rem;
-    opacity: 0.8;
+    opacity: 0.7;
   }
 }
 .footer__copyright {
