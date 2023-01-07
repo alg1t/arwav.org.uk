@@ -1393,12 +1393,13 @@ section#galleryContainer {
 #cppaint {
   stroke-dasharray: 355px;
   stroke-dashoffset: -355px;
-  -webkit-animation: p-anim 0.16s linear 0s forwards;
   animation: p-anim 0.16s linear 0s forwards;
+  -webkit-animation: p-anim 0.16s linear 0s forwards;
+  -moz-animation: p-anim 0.16s linear 0s forwards;
   -webkit-animation-name: p-anim;
   animation-name: p-anim;
 }
-@-webkit-keyframes p-anim {
+@keyframes p-anim {
   from {
     stroke-dashoffset: -355px;
   }
@@ -1407,7 +1408,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes p-anim {
+@-webkit-keyframes p-anim {
   from {
     stroke-dashoffset: -355px;
   }
@@ -1420,12 +1421,13 @@ section#galleryContainer {
 #capaint {
   stroke-dasharray: 160px;
   stroke-dashoffset: -160px;
-  -webkit-animation: a-anim 0.16s linear 0.16s forwards;
   animation: a-anim 0.16s linear 0.16s forwards;
+  -webkit-animation: a-anim 0.16s linear 0.16s forwards;
+  -moz-animation: a-anim 0.16s linear 0.16s forwards;
   -webkit-animation-name: a-anim;
   animation-name: a-anim;
 }
-@-webkit-keyframes a-anim {
+@keyframes a-anim {
   from {
     stroke-dashoffset: -160px;
   }
@@ -1434,7 +1436,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes a-anim {
+@-webkit-keyframes a-anim {
   from {
     stroke-dashoffset: -160px;
   }
@@ -1447,12 +1449,13 @@ section#galleryContainer {
 #cipaint1 {
   stroke-dasharray: 75px;
   stroke-dashoffset: -75px;
-  -webkit-animation: i-anim 0.16s linear 0.32s forwards;
   animation: i-anim 0.16s linear 0.32s forwards;
+  -webkit-animation: i-anim 0.16s linear 0.32s forwards;
+  -moz-animation: i-anim 0.16s linear 0.32s forwards;
   -webkit-animation-name: i-anim;
   animation-name: i-anim;
 }
-@-webkit-keyframes i-anim {
+@keyframes i-anim {
   from {
     stroke-dashoffset: -75px;
   }
@@ -1461,7 +1464,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes i-anim {
+@-webkit-keyframes i-anim {
   from {
     stroke-dashoffset: -75px;
   }
@@ -1474,12 +1477,13 @@ section#galleryContainer {
 #cnpaint1 {
   stroke-dasharray: 140px;
   stroke-dashoffset: -140px;
-  -webkit-animation: n-anim 0.16s linear 0.48s forwards;
   animation: n-anim 0.16s linear 0.48s forwards;
+  -webkit-animation: n-anim 0.16s linear 0.48s forwards;
+  -moz-animation: n-anim 0.16s linear 0.48s forwards;
   -webkit-animation-name: n-anim;
   animation-name: n-anim;
 }
-@-webkit-keyframes n-anim {
+@keyframes n-anim {
   from {
     stroke-dashoffset: -140px;
   }
@@ -1488,7 +1492,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes n-anim {
+@-webkit-keyframes n-anim {
   from {
     stroke-dashoffset: -140px;
   }
@@ -1501,12 +1505,13 @@ section#galleryContainer {
 #ctpaint {
   stroke-dasharray: 142px;
   stroke-dashoffset: -142px;
-  -webkit-animation: t-anim 0.16s linear 0.64s forwards;
   animation: t-anim 0.16s linear 0.64s forwards;
+  -webkit-animation: t-anim 0.16s linear 0.64s forwards;
+  -moz-animation: t-anim 0.16s linear 0.64s forwards;
   -webkit-animation-name: t-anim;
   animation-name: t-anim;
 }
-@-webkit-keyframes t-anim {
+@keyframes t-anim {
   from {
     stroke-dashoffset: -142px;
   }
@@ -1515,7 +1520,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes t-anim {
+@-webkit-keyframes t-anim {
   from {
     stroke-dashoffset: -142px;
   }
@@ -1528,12 +1533,13 @@ section#galleryContainer {
 #cipaint {
   stroke-dasharray: 70px;
   stroke-dashoffset: -70px;
-  -webkit-animation: i2-anim 0.16s linear 0.8s forwards;
   animation: i2-anim 0.16s linear 0.8s forwards;
+  -webkit-animation: i2-anim 0.16s linear 0.8s forwards;
+  -moz-animation: i2-anim 0.16s linear 0.8s forwards;
   -webkit-animation-name: i2-anim;
   animation-name: i2-anim;
 }
-@-webkit-keyframes i2-anim {
+@keyframes i2-anim {
   from {
     stroke-dashoffset: -70px;
   }
@@ -1542,7 +1548,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes i2-anim {
+@-webkit-keyframes i2-anim {
   from {
     stroke-dashoffset: -70px;
   }
@@ -1555,12 +1561,13 @@ section#galleryContainer {
 #cnpaint {
   stroke-dasharray: 139px;
   stroke-dashoffset: -139px;
-  -webkit-animation: n2-anim 0.16s linear 0.96s forwards;
   animation: n2-anim 0.16s linear 0.96s forwards;
+  -webkit-animation: n2-anim 0.16s linear 0.96s forwards;
+  -moz-animation: n2-anim 0.16s linear 0.96s forwards;
   -webkit-animation-name: n2-anim;
   animation-name: n2-anim;
 }
-@-webkit-keyframes n2-anim {
+@keyframes n2-anim {
   from {
     stroke-dashoffset: -139px;
   }
@@ -1569,7 +1576,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes n2-anim {
+@-webkit-keyframes n2-anim {
   from {
     stroke-dashoffset: -139px;
   }
@@ -1582,12 +1589,13 @@ section#galleryContainer {
 #cgpaint {
   stroke-dasharray: 210px;
   stroke-dashoffset: -210px;
-  -webkit-animation: g-anim 0.16s linear 1.12s forwards;
   animation: g-anim 0.16s linear 1.12s forwards;
+  -webkit-animation: g-anim 0.16s linear 1.12s forwards;
+  -moz-animation: g-anim 0.16s linear 1.12s forwards;
   -webkit-animation-name: g-anim;
   animation-name: g-anim;
 }
-@-webkit-keyframes g-anim {
+@keyframes g-anim {
   from {
     stroke-dashoffset: -210px;
   }
@@ -1596,7 +1604,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes g-anim {
+@-webkit-keyframes g-anim {
   from {
     stroke-dashoffset: -210px;
   }
@@ -1609,12 +1617,13 @@ section#galleryContainer {
 #cspaint {
   stroke-dasharray: 85px;
   stroke-dashoffset: -85px;
-  -webkit-animation: s-anim 0.16s linear 1.28s forwards;
   animation: s-anim 0.16s linear 1.28s forwards;
+  -webkit-animation: s-anim 0.16s linear 1.28s forwards;
+  -moz-animation: s-anim 0.16s linear 1.28s forwards;
   -webkit-animation-name: s-anim;
   animation-name: s-anim;
 }
-@-webkit-keyframes s-anim {
+@keyframes s-anim {
   from {
     stroke-dashoffset: -85px;
   }
@@ -1623,7 +1632,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes s-anim {
+@-webkit-keyframes s-anim {
   from {
     stroke-dashoffset: -85px;
   }
@@ -1636,12 +1645,13 @@ section#galleryContainer {
 #ciin {
   stroke-dasharray: 245px;
   stroke-dashoffset: -245px;
-  -webkit-animation: ciin-anim 0.16s linear 1.44s forwards;
   animation: ciin-anim 0.16s linear 1.44s forwards;
+  -webkit-animation: ciin-anim 0.16s linear 1.44s forwards;
+  -moz-animation: ciin-anim 0.16s linear 1.44s forwards;
   -webkit-animation-name: ciin-anim;
   animation-name: ciin-anim;
 }
-@-webkit-keyframes ciin-anim {
+@keyframes ciin-anim {
   from {
     stroke-dashoffset: -245px;
   }
@@ -1650,7 +1660,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes ciin-anim {
+@-webkit-keyframes ciin-anim {
   from {
     stroke-dashoffset: -245px;
   }
@@ -1663,8 +1673,9 @@ section#galleryContainer {
 #cnin {
   stroke-dasharray: 140px;
   stroke-dashoffset: -140px;
-  -webkit-animation: cnin-anim 0.16s linear 1.6s forwards;
   animation: cnin-anim 0.16s linear 1.6s forwards;
+  -webkit-animation: cnin-anim 0.16s linear 1.6s forwards;
+  -moz-animation: cnin-anim 0.16s linear 1.6s forwards;
   -webkit-animation-name: ciin-anim;
   animation-name: ciin-anim;
 }
@@ -1677,16 +1688,26 @@ section#galleryContainer {
     fill: black;
   }
 }
+@-webkit-keyframes ciin-anim {
+  from {
+    stroke-dashoffset: -140px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+    fill: black;
+  }
+}
 
 #cmmy {
   stroke-dasharray: 385px;
   stroke-dashoffset: -385px;
-  -webkit-animation: cmmy-anim 0.16s linear 1.76s forwards;
   animation: cmmy-anim 0.16s linear 1.76s forwards;
+  -webkit-animation: cmmy-anim 0.16s linear 1.76s forwards;
+  -moz-animation: cmmy-anim 0.16s linear 1.76s forwards;
   -webkit-animation-name: cmmy-anim;
   animation-name: cmmy-anim;
 }
-@-webkit-keyframes cmmy-anim {
+@keyframes cmmy-anim {
   from {
     stroke-dashoffset: -385px;
   }
@@ -1695,7 +1716,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes cmmy-anim {
+@-webkit-keyframes cmmy-anim {
   from {
     stroke-dashoffset: -385px;
   }
@@ -1708,12 +1729,13 @@ section#galleryContainer {
 #cymy {
   stroke-dasharray: 190px;
   stroke-dashoffset: -190px;
-  -webkit-animation: cymy-anim 0.16s linear 1.92s forwards;
   animation: cymy-anim 0.16s linear 1.92s forwards;
+  -webkit-animation: cymy-anim 0.16s linear 1.92s forwards;
+  -moz-animation: cymy-anim 0.16s linear 1.92s forwards;
   -webkit-animation-name: cymy-anim;
   animation-name: cymy-anim;
 }
-@-webkit-keyframes cymy-anim {
+@keyframes cymy-anim {
   from {
     stroke-dashoffset: -190px;
   }
@@ -1722,7 +1744,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes cymy-anim {
+@-webkit-keyframes cymy-anim {
   from {
     stroke-dashoffset: -190px;
   }
@@ -1735,12 +1757,13 @@ section#galleryContainer {
 #gg1 {
   stroke-dasharray: 230px;
   stroke-dashoffset: -230px;
-  -webkit-animation: gg1-anim 0.16s linear 2.08s forwards;
   animation: gg1-anim 0.16s linear 2.08s forwards;
+  -webkit-animation: gg1-anim 0.16s linear 2.08s forwards;
+  -moz-animation: gg1-anim 0.16s linear 2.08s forwards;
   -webkit-animation-name: gg1-anim;
   animation-name: gg1-anim;
 }
-@-webkit-keyframes gg1-anim {
+@keyframes gg1-anim {
   from {
     stroke-dashoffset: -230px;
   }
@@ -1749,7 +1772,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes gg1-anim {
+@-webkit-keyframes gg1-anim {
   from {
     stroke-dashoffset: -230px;
   }
@@ -1762,12 +1785,13 @@ section#galleryContainer {
 #ga1 {
   stroke-dasharray: 160px;
   stroke-dashoffset: -160px;
-  -webkit-animation: ga1-anim 0.16s linear 2.24s forwards;
   animation: ga1-anim 0.16s linear 2.24s forwards;
+  -webkit-animation: ga1-anim 0.16s linear 2.24s forwards;
+  -moz-animation: ga1-anim 0.16s linear 2.24s forwards;
   -webkit-animation-name: ga1-anim;
   animation-name: ga1-anim;
 }
-@-webkit-keyframes ga1-anim {
+@keyframes ga1-anim {
   from {
     stroke-dashoffset: -160px;
   }
@@ -1776,7 +1800,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes ga1-anim {
+@-webkit-keyframes ga1-anim {
   from {
     stroke-dashoffset: -160px;
   }
@@ -1789,12 +1813,13 @@ section#galleryContainer {
 #gr {
   stroke-dasharray: 90px;
   stroke-dashoffset: -90px;
-  -webkit-animation: gr-anim 0.16s linear 2.4s forwards;
   animation: gr-anim 0.16s linear 2.4s forwards;
+  -webkit-animation: gr-anim 0.16s linear 2.4s forwards;
+  -moz-animation: gr-anim 0.16s linear 2.4s forwards;
   -webkit-animation-name: gr-anim;
   animation-name: gr-anim;
 }
-@-webkit-keyframes gr-anim {
+@keyframes gr-anim {
   from {
     stroke-dashoffset: -90px;
   }
@@ -1803,7 +1828,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes gr-anim {
+@-webkit-keyframes gr-anim {
   from {
     stroke-dashoffset: -90px;
   }
@@ -1816,12 +1841,13 @@ section#galleryContainer {
 #ga2 {
   stroke-dasharray: 160px;
   stroke-dashoffset: -160px;
-  -webkit-animation: ga2-anim 0.16s linear 2.56s forwards;
   animation: ga2-anim 0.16s linear 2.56s forwards;
+  -webkit-animation: ga2-anim 0.16s linear 2.56s forwards;
+  -moz-animation: ga2-anim 0.16s linear 2.56s forwards;
   -webkit-animation-name: ga2-anim;
   animation-name: ga2-anim;
 }
-@-webkit-keyframes ga2-anim {
+@keyframes ga2-anim {
   from {
     stroke-dashoffset: -90px;
   }
@@ -1830,7 +1856,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes ga2-anim {
+@-webkit-keyframes ga2-anim {
   from {
     stroke-dashoffset: -90px;
   }
@@ -1843,12 +1869,13 @@ section#galleryContainer {
 #gg2 {
   stroke-dasharray: 220px;
   stroke-dashoffset: -220px;
-  -webkit-animation: gg2-anim 0.16s linear 2.72s forwards;
   animation: gg2-anim 0.16s linear 2.72s forwards;
+  -webkit-animation: gg2-anim 0.16s linear 2.72s forwards;
+  -moz-animation: gg2-anim 0.16s linear 2.72s forwards;
   -webkit-animation-name: gg2-anim;
   animation-name: gg2-anim;
 }
-@-webkit-keyframes gg2-anim {
+@keyframes gg2-anim {
   from {
     stroke-dashoffset: -220px;
   }
@@ -1857,7 +1884,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes gg2-anim {
+@-webkit-keyframes gg2-anim {
   from {
     stroke-dashoffset: -220px;
   }
@@ -1870,12 +1897,13 @@ section#galleryContainer {
 #ge {
   stroke-dasharray: 120px;
   stroke-dashoffset: -120px;
-  -webkit-animation: ge-anim 0.16s linear 2.88s forwards;
   animation: ge-anim 0.16s linear 2.88s forwards;
+  -webkit-animation: ge-anim 0.16s linear 2.88s forwards;
+  -moz-animation: ge-anim 0.16s linear 2.88s forwards;
   -webkit-animation-name: ge-anim;
   animation-name: ge-anim;
 }
-@-webkit-keyframes ge-anim {
+@keyframes ge-anim {
   from {
     stroke-dashoffset: -120px;
   }
@@ -1884,7 +1912,7 @@ section#galleryContainer {
     fill: black;
   }
 }
-@keyframes ge-anim {
+@-webkit-keyframes ge-anim {
   from {
     stroke-dashoffset: -120px;
   }
