@@ -496,12 +496,10 @@ body {
 section#galleryContainer {
   display: grid;
   grid-template-columns: [container-start] 1fr [container-end];
-  grid-template-rows:
-    [header-start] minmax(10vh, 0.1fr) [header-end card-row-start] minmax(
+  grid-template-rows: [header-start] minmax(10vh, 0.1fr) [header-end card-row-start] minmax(
       90vh,
       1fr
-    )
-    [card-row-end];
+    ) [card-row-end];
   margin-top: -14.5rem;
 }
 
@@ -956,13 +954,19 @@ section#galleryContainer {
 .popup__close:visited {
   color: #777;
   position: absolute;
-  top: 3rem;
-  right: 3rem;
-  font-size: 3rem;
+  top: 1rem;
+  right: 1rem;
+  font-size: 4rem;
   text-decoration: none;
   display: inline-block;
   transition: all 0.2s;
-  /* line-height: 1; */
+  line-height: 1;
+}
+.popup__close--white:link,
+.popup__close--white:visited {
+  color: white;
+  top: 1rem;
+  right: 1rem;
 }
 @media (max-width: 35em) {
   .popup__left {
@@ -1253,7 +1257,7 @@ section#galleryContainer {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 1.3rem;
   z-index: 250;
-  padding-bottom: 8rem;
+  padding-bottom: 7.3rem;
   padding-top: 3rem;
 }
 .popup3__header :before {
@@ -1277,13 +1281,6 @@ section#galleryContainer {
 }
 .popup3__p {
   padding: 1rem 2rem 0 2rem;
-}
-
-.popup__close--white:link,
-.popup__close--white:visited {
-  color: white;
-  top: 1rem;
-  right: 1rem;
 }
 .popup3__credits {
   color: #272727;
@@ -1899,7 +1896,6 @@ section#galleryContainer {
 
 .header {
   height: 100vh;
-  width: 100vw;
   background-image: linear-gradient(
       to right bottom,
       rgba(58, 10, 10, 0.5),
@@ -1911,9 +1907,8 @@ section#galleryContainer {
   background-position: top;
   position: relative;
 }
-@media (max-width: 56.25rem) {
-  /* @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 56.25rem),
-  (min-resolution: 192dpi) and (max-width: 56.25rem) { */
+@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 56.25rem),
+  (min-resolution: 192dpi) and (max-width: 56.25rem) {
   .header {
     background-image: linear-gradient(
         to right bottom,
@@ -2004,35 +1999,19 @@ section#galleryContainer {
 }
 
 .footer {
-  /* background-color: rgb(0, 0, 0); */
   background-color: #333;
 }
-.footer__logo-box {
+.footer .footer__logo--box {
   padding-top: 7rem;
   text-align: center;
   opacity: 0.85;
   padding-bottom: 2rem;
   /* background-size: 80px 68px; */
 }
-@media (max-width: 35em) {
-  .footer__logo-box {
+@media (max-width: 35rem) {
+  .footer .footer__logo--box {
     padding-top: 4rem;
     opacity: 0.7;
-  }
-}
-/* .footer__copyright {
-  font-family: Cormorant Infant;
-  font-weight: 400;
-  font-size: 1rem;
-  color: white;
-  text-align: center;
-  padding-bottom: 4rem;
-  opacity: 0.8; 
-  padding-top: -1rem;
-} */
-@media (max-width: 35em) {
-  .footer__copyright {
-    padding-bottom: 2rem;
   }
 }
 .footer__details {
@@ -2045,7 +2024,7 @@ section#galleryContainer {
 }
 @media (max-width: 35em) {
   .footer__details {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }
 .footer__navigation {
