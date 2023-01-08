@@ -195,9 +195,9 @@ body {
 }
 
 .heading-tertiary {
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
   color: #777;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 300;
   /*text-transform: uppercase;*/
 }
@@ -496,10 +496,12 @@ body {
 section#galleryContainer {
   display: grid;
   grid-template-columns: [container-start] 1fr [container-end];
-  grid-template-rows: [header-start] minmax(10vh, 0.1fr) [header-end card-row-start] minmax(
+  grid-template-rows:
+    [header-start] minmax(10vh, 0.1fr) [header-end card-row-start] minmax(
       90vh,
       1fr
-    ) [card-row-end];
+    )
+    [card-row-end];
   margin-top: -14.5rem;
 }
 
