@@ -74,7 +74,7 @@ function reportWindowSize() {
   const shape = document.getElementById("galleryHeader");
 
   if (window.innerWidth <= 400) {
-    shape.setAttribute("viewBox", "-65 0 550 100");
+    shape.setAttribute("viewBox", "-65 -10 550 100");
   } else if (window.innerWidth <= 600) {
     shape.setAttribute("viewBox", "-120 0 650 100");
   } else if (window.innerWidth <= 900) {
@@ -85,6 +85,22 @@ function reportWindowSize() {
 }
 window.onload = reportWindowSize();
 
+
+function sigSize() {
+
+  const shap = document.getElementById("sig");
+
+  if (window.innerWidth <= 400) {
+    shap.setAttribute("viewBox", "-150 94 1100 150");
+  } else if (window.innerWidth <= 600) {
+    shap.setAttribute("viewBox", "-150 94 1100 150");
+  } else if (window.innerWidth <= 900) {
+    shap.setAttribute("viewBox", "100 62 1500 190");
+  } else {
+    shap.setAttribute("viewBox", "100 10 1900 230");
+  }
+}
+window.onload = sigSize();
 
 // const shape = document.getElementById("galleryHeader");
 
