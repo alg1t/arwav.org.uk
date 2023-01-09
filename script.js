@@ -91,7 +91,7 @@ function sigSize() {
   const shap = document.getElementById("sig");
 
   if (window.innerWidth <= 400) {
-    shap.setAttribute("viewBox", "-150 94 1100 150");
+    shap.setAttribute("viewBox", "-150 80 1100 150");
   } else if (window.innerWidth <= 600) {
     shap.setAttribute("viewBox", "-150 94 1100 150");
   } else if (window.innerWidth <= 900) {
