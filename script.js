@@ -80,7 +80,7 @@ function reportWindowSize() {
   } else if (window.innerWidth <= 900) {
     shape.setAttribute("viewBox", "-160 0 750 100");
   } else {
-    shape.setAttribute("viewBox", "-460 0 1350 100");
+    shape.setAttribute("viewBox", "-200 0 1350 100");
   }
 }
 window.onload = reportWindowSize();
