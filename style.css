@@ -932,7 +932,7 @@ section#galleryContainer {
   width: 100%;
 }
 .popup__text {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   -moz-column-count: 2;
   -moz-column-gap: 4rem;
