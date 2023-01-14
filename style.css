@@ -956,7 +956,7 @@ section#galleryContainer {
 .popup__close:visited {
   color: #777;
   position: absolute;
-  top: 1rem;
+  top: 2rem;
   right: 1rem;
   font-size: 4rem;
   text-decoration: none;
