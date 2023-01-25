@@ -824,7 +824,7 @@ section#galleryContainer {
 .story__img {
   height: 100%;
   opacity: 0.9;
-  transform: translateX(-3rem) scale(1.5);
+  transform: translateX(1rem) scale(1.2);
   /* transform: translateX(-13.8rem) scale(1.6); */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -833,7 +833,7 @@ section#galleryContainer {
 @media (max-width: 35em) {
   .story__img {
     /* transform: translateX(-10.2rem) scale(1.6); */
-    transform: translateX(-2rem) scale(1.4);
+    transform: translateX(-1rem) scale(1.2);
   }
 }
 .story:hover .story__img {
