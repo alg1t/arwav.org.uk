@@ -823,19 +823,21 @@ section#galleryContainer {
 }
 .story__img {
   height: 100%;
-  opacity: 0.5;
-  transform: translateX(-13.8rem) scale(1.6);
+  opacity: 0.9;
+  transform: translateX(-3rem) scale(1.5);
+  /* transform: translateX(-13.8rem) scale(1.6); */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: all 0.5s;
 }
 @media (max-width: 35em) {
   .story__img {
-    transform: translateX(-10.2rem) scale(1.6);
+    /* transform: translateX(-10.2rem) scale(1.6); */
+    transform: translateX(-2rem) scale(1.4);
   }
 }
 .story:hover .story__img {
-  transform: translateX(-4rem) scale(1);
+  transform: translateX(-3rem) scale(1);
   filter: blur(3px) brightness(80%);
 }
 
