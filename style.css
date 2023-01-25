@@ -837,7 +837,7 @@ section#galleryContainer {
   }
 }
 .story:hover .story__img {
-  transform: translateX(-3rem) scale(1);
+  transform: translateX(-2.5rem) scale(1);
   filter: blur(3px) brightness(80%);
 }
 
