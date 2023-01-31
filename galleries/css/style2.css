@@ -36,6 +36,7 @@ h1 {
   right: 1rem; */
   font-size: calc(1.5rem + 1.5vw);
   text-decoration: none;
+  line-height: 1;
   /* justify-content: end; */
   /* display: inline-block; */
 }
