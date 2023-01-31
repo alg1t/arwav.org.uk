@@ -2,9 +2,16 @@ body {
   background-color: #000000;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
   text-align: center;
   color: rgb(251, 250, 249);
+  font-family: "Water Brush", cursive;
+  font-size: calc(1.5rem + 1.4vw);
 }
 
 .gallery {
@@ -21,3 +28,27 @@ h1 {
   filter: grayscale(100%);
   transform: scale(1.1);
 }
+
+.popup__close--white:link,
+.popup__close--white:visited {
+  color: white;
+  /* top: -4rem;
+  right: 1rem; */
+  font-size: calc(2rem + 1.4vw);
+  text-decoration: none;
+  /* justify-content: end; */
+  /* display: inline-block; */
+}
+
+/* .popup__close:link,
+.popup__close:visited {
+  color: #777;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  font-size: 4rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
+  line-height: 1;
+} */
