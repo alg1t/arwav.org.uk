@@ -11,7 +11,7 @@ h1 {
   text-align: center;
   color: rgb(251, 250, 249);
   font-family: "Water Brush", cursive;
-  font-size: calc(1.5rem + 1.4vw);
+  font-size: calc(1rem + 2vw);
 }
 
 .gallery {
@@ -34,7 +34,7 @@ h1 {
   color: white;
   /* top: -4rem;
   right: 1rem; */
-  font-size: calc(1rem + 1.5vw);
+  font-size: calc(1.2rem + 1.5vw);
   text-decoration: none;
   /* line-height: 1; */
   /* justify-content: end; */
