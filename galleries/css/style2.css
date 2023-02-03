@@ -10,8 +10,10 @@ nav {
 h1 {
   text-align: center;
   color: rgb(251, 250, 249);
-  font-family: "Water Brush", cursive;
-  font-size: calc(1rem + 2vw);
+  font-family: "Roboto", sans-serif;
+  /*   
+  font-family: "Water Brush", cursive; */
+  font-size: calc(1.3rem + 1.3vw);
 }
 
 .gallery {
