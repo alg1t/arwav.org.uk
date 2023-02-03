@@ -13,7 +13,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   /*   
   font-family: "Water Brush", cursive; */
-  font-size: calc(1.3rem + 1.3vw);
+  font-size: calc(1.3rem + 0.75vw);
 }
 
 .gallery {
