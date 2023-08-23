@@ -1938,7 +1938,7 @@ section#galleryContainer {
   margin-top: 7vw;
   margin-bottom: 2vw;
   z-index: 10;
-  color: #090909;
+  color: #ffffff;
 }
 .favcontainer__content {
   max-width: 100rem;
@@ -1967,7 +1967,7 @@ section#galleryContainer {
   opacity: 1;
 }
 .favcontainer__content--slider {
-  border: 1px solid rgb(1, 1, 1);
+  border: 1px solid rgb(232, 231, 231);
   max-width: 60rem;
   margin: 0 auto;
   text-align: center;
@@ -1984,14 +1984,14 @@ section#galleryContainer {
   font-family: "Khula", sans-serif;
   font-weight: 300;
   font-size: calc(1rem + 1vw);
-  color: #060606;
+  color: #ffffff;
   padding: 0 2rem 0 2rem;
 }
 .favcontainer__content--slider__slide--title {
   font-family: "Khula", sans-serif;
   font-weight: 300;
   font-size: calc(1.5rem + 1.2vw);
-  color: #000000;
+  color: #ffffff;
   padding-bottom: 1vw;
   padding-top: 2vw;
 }
