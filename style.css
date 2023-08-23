@@ -1933,7 +1933,7 @@ section#galleryContainer {
 .favcontainer__title {
   text-align: center;
   font-family: "Khula", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: calc(2.5rem + 1.2vw);
   margin-top: 7vw;
   margin-bottom: 2vw;
@@ -1968,7 +1968,7 @@ section#galleryContainer {
 }
 .favcontainer__content--slider {
   border: 1px solid rgb(232, 231, 231);
-  max-width: 60rem;
+  max-width: 80rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -1982,18 +1982,18 @@ section#galleryContainer {
 .favcontainer__content--slider__slide--para {
   margin-bottom: 2vw;
   font-family: "Khula", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: calc(1rem + 1vw);
   color: #ffffff;
   padding: 0 2rem 0 2rem;
 }
 .favcontainer__content--slider__slide--title {
   font-family: "Khula", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: calc(1.5rem + 1.2vw);
   color: #ffffff;
   padding-bottom: 1vw;
-  padding-top: 2vw;
+  padding-top: 1vw;
 }
 @media (max-width: 75em) {
   .favcontainer__title {
