@@ -1992,7 +1992,7 @@ section#galleryContainer {
   font-weight: 300;
   font-size: calc(1.5rem + 1.2vw);
   color: #ffffff;
-  padding-bottom: 1vw;
+  /* padding-bottom: 1vw; */
   padding-top: 1vw;
 }
 @media (max-width: 75em) {
