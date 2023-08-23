@@ -131,3 +131,68 @@ const headerObserver = new IntersectionObserver(loadImg2, {
 });
 
 headerObserver.observe(headerObs);
+
+
+// ******************Addition************************
+
+
+const container = document.querySelector(".favcontainer");
+const slides = document.querySelector(".favcontainer__content--slider")
+  .children;
+const indicatorImgs = document.querySelector(
+  ".favcontainer__content--indicator"
+).children;
+
+// function change(image) {
+//   container.style.backgroundImage = (image);
+// }
+// function changeBackground(image){
+//   container.insertBefore = image;
+// }
+
+// console.log(indicatorImgs[0]);
+// console.log(indicatorImgs[2]);
+
+for (let i = 0; i < indicatorImgs.length; i++) {
+  indicatorImgs[i].addEventListener("click", function () {
+    // console.log(this.getAttribute("data-id"));
+
+    // Getting The Slide Imgas
+    for (let j = 0; j < indicatorImgs.length; j++) {
+      indicatorImgs[j].classList.remove("active");
+    }
+
+  
+    this.classList.add("active")
+    // getting the nex slide
+    const id = this.getAttribute("data-id");
+    // container.style.backgroundImage = `url(/img/${id}.jpg)`;
+   
+   
+    
+    for (let k = 0; k < slides.length; k++) {
+      slides[k].classList.remove("active");
+    }
+
+    // container.style.backgroundImage = linear-gradient(
+    //   to right bottom,
+    //   rgba(38, 52, 65, 0.4),
+    //   rgba(38, 52, 65, 0.4)
+    // ),`url(/img/${id}.jpg)`;
+    container.style.backgroundImage = `url(img/${id}.jpg)`;
+    slides[id].classList.add("active");
+    
+    // changeBackground("bg3");
+    // console.log(typeof id);
+    // container.style.backgroundImage = "url(`/img/background--${id}.jpg`)";
+   
+
+  });
+
+  
+    // indicatorImgs[0].onclick="changeBackground('bg1')";
+    // indicatorImgs[1].onclick="changeBackground('bg2')";
+    // indicatorImgs[2].onclick="changeBackground('bg3')";
+
+
+}
