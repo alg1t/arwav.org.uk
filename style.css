@@ -1977,7 +1977,7 @@ section#galleryContainer {
 }
 .favcontainer__content--slider__slide.active {
   display: block;
-  animation: slide 1s linear;
+  animation: slide 1.5s linear;
 }
 .favcontainer__content--slider__slide--para {
   margin-bottom: 2vw;
