@@ -1221,7 +1221,7 @@ section#galleryContainer {
   top: 0;
   width: 100%;
   opacity: 0.5;
-  background-image: url("../img/xxx.jpg");
+  background-image: url("img/xxx.jpg");
   background-position: center;
   height: 100%;
   background-size: cover;
