@@ -1790,7 +1790,7 @@ section#galleryContainer {
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #222121;
 }
 .footer .footer__logo--box {
   padding-top: 7rem;
@@ -1835,7 +1835,7 @@ section#galleryContainer {
 .footer__link:link,
 .footer__link:visited {
   color: #e7e7e7;
-  background-color: #160a15;
+  background-color: #222121;
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
