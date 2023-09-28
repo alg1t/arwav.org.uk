@@ -172,8 +172,11 @@ body {
 }
 
 .paragraph {
-  font-size: 1.6rem;
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 2rem;
   padding-left: 2rem;
+  color: #181616;
 }
 .paragraph:not(:last-child) {
   margin-bottom: 3rem;
