@@ -342,7 +342,9 @@ body {
 }
 .composition__photo {
   width: 52%;
-  box-shadow: 0 1.9rem 4rem rgb(21, 0, 0), 0.8;
+  box-shadow:
+    0 1.9rem 4rem rgb(21, 0, 0),
+    0.8;
   position: absolute;
   z-index: 10;
   transition: all 0.2s;
@@ -432,13 +434,17 @@ body {
 }
 .composition__photo--p3:hover {
   transform: scale(1.05) translateY(-0.5rem);
-  box-shadow: 0 2.5rem 4rem rgb(245, 11, 11), 0.5;
+  box-shadow:
+    0 2.5rem 4rem rgb(245, 11, 11),
+    0.5;
   outline: 1.9rem ridge rgb(255, 255, 255);
   z-index: 22;
 }
 .composition__photo:hover {
   transform: scale(1.05) translateY(-0.5rem);
-  box-shadow: 0 2.5rem 4rem rgb(245, 11, 11), 0.5;
+  box-shadow:
+    0 2.5rem 4rem rgb(245, 11, 11),
+    0.5;
   outline: 1.9rem ridge rgb(255, 255, 255);
   z-index: 20;
 }
@@ -562,47 +568,32 @@ section#galleryContainer {
   border-top-right-radius: 3px;
 }
 .gallery__card:nth-child(1) .gallery__card--picture__front {
-  background-image: linear-gradient(
-      to right bottom,
-      rgb(99, 40, 6),
-      rgb(21, 0, 0)
-    ),
+  background-image:
+    linear-gradient(to right bottom, rgb(99, 40, 6), rgb(21, 0, 0)),
     url("img/Autumn.jpg");
 }
 .gallery__card:nth-child(2) .gallery__card--picture__front {
-  background-image: linear-gradient(
-      to right bottom,
-      rgb(99, 40, 6),
-      rgb(21, 0, 0)
-    ),
+  background-image:
+    linear-gradient(to right bottom, rgb(99, 40, 6), rgb(21, 0, 0)),
     url("img/summer.jpg");
 }
 .gallery__card:nth-child(3) .gallery__card--picture__front {
-  background-image: linear-gradient(to right bottom, #225488, #061630),
-    url("img/sea.jpg");
+  background-image:
+    linear-gradient(to right bottom, #225488, #061630), url("img/sea.jpg");
 }
 .gallery__card:nth-child(1) .gallery__card--picture__back {
-  background-image: linear-gradient(
-      to right bottom,
-      rgb(99, 40, 6),
-      rgb(21, 0, 0)
-    ),
+  background-image:
+    linear-gradient(to right bottom, rgb(99, 40, 6), rgb(21, 0, 0)),
     url("img/winter.jpg");
 }
 .gallery__card:nth-child(2) .gallery__card--picture__back {
-  background-image: linear-gradient(
-      to right bottom,
-      rgb(99, 40, 6),
-      rgb(21, 0, 0)
-    ),
+  background-image:
+    linear-gradient(to right bottom, rgb(99, 40, 6), rgb(21, 0, 0)),
     url("img/spring.jpg");
 }
 .gallery__card:nth-child(3) .gallery__card--picture__back {
-  background-image: linear-gradient(
-      to right bottom,
-      rgb(99, 40, 6),
-      rgb(21, 0, 0)
-    ),
+  background-image:
+    linear-gradient(to right bottom, rgb(99, 40, 6), rgb(21, 0, 0)),
     url("img/c3.jpg");
 }
 .gallery__card--heading {
@@ -1687,7 +1678,8 @@ section#galleryContainer {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(58, 10, 10, 0.5),
       rgba(10, 4, 4, 0.5)
@@ -1701,12 +1693,13 @@ section#galleryContainer {
 @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 56.25rem),
   (min-resolution: 192dpi) and (max-width: 56.25rem) {
   .header {
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         to right bottom,
         rgba(58, 10, 10, 0.5),
         rgba(10, 4, 4, 0.5)
       ),
-      url(/img/small100k.jpg);
+      url(img/small100k.jpg);
   }
 }
 .header__text-box {
